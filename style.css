@@ -1,0 +1,121 @@
+
+
+*
+{
+    background: #a4a9a9;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 200%;
+
+}
+
+
+.logo{
+    padding-top: 10px;
+    margin-left: 110px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+.text-area {
+    
+    background: #dcc5d7;
+    border: none;
+    color: #D35400; ;
+    margin-top: 90px;
+    margin-left: 98px;
+    margin-top: 20px;
+    border-radius: 24px;
+    width: 800px;
+    height: 800px;
+    text-transform: lowercase;
+}
+
+::placeholder{color: #43065d; }
+    .text-area:focus {
+        outline: none;
+    }
+
+    .mensaje{
+       background: #dcc5d7;
+       background-image: url(imagenes/muneco.png);
+       background-position: 100px;
+        background-repeat: no-repeat;
+        border: 50;
+        border-radius: 24px;
+        color: #43065d;
+        margin-left: 98px;
+        margin-top: 20px;
+        padding-left: 20px;
+        width: 500px;
+        height: 800px;
+        position: fixed;
+    }
+.mensaje:focus{
+    outline: none;
+}
+
+.botones{
+    display: flex;
+    margin-top: 5px;
+
+}
+
+.btn-desencriptar{
+    background-color: #2980B9;
+    border: 1px solid #17202A ;
+    border-radius: 24px;
+    color: #D6EAF8;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 328px;
+
+}
+
+.btn-encriptar{
+    background-color: #2980B9;
+    border: 1px solid #17202A ;
+    border-radius: 24px;
+    color: #D6EAF8;
+    cursor: pointer;
+    height: 70px;
+    margin-left: 150px;
+    margin-top: 5px;
+    width: 350px;
+    
+}
+
+.btn-copiar{
+    background-color: #2980B9;
+    border: 1px solid #17202A ;
+    border-radius: 24px;
+    color: #D6EAF8;
+    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 702px;
+    position: absolute;
+    height: 70px;
+    width: 350px;   
+}
+
+.informacion{
+    color:#24026d;
+    font-size: 40px;
+    margin-left: 180px;
+    margin-top: 10px;
+}
+
+.copyright{
+    color:#2c0000;
+    font-size: 30px;
+    margin:350px;
+    margin-left: 600px;
+    margin-bottom: 100px;
+}
